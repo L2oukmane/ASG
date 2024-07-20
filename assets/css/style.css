@@ -16,7 +16,6 @@ box-sizing: border-box;
 
 html, body {
 height: 100%;
-overflow: hidden;
 background-color: #eeeeee;
 color: #303030;
 font-family: "Asap", sans-serif;
@@ -72,13 +71,6 @@ font-size: 2em;
 }
 
 
-
-
-
- 
- html {
-  height:100%;
-}
 
 body {
   margin:0;

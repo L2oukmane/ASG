@@ -190,5 +190,14 @@ for (let i = 0, len = accordions.length; i < len; i++) { initAccordion(accordion
 
 
 /*  Languages */
+document.getElementById("en").addEventListener("click", redirect);
 
+function redirect(){ window.location = "index.html"; }
 
+document.getElementById("ru").addEventListener("click", redirectRU);
+
+function redirectRU(){ window.location = "russian.html"; }
+
+document.getElementById("ar").addEventListener("click", redirectAR);
+
+function redirectAR(){ window.location = "arabice.html"; }
