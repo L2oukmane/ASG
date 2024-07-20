@@ -7,6 +7,10 @@
  */
 
 
+ .material-symbols-outlined {
+   font-size: 40px;
+ }
+
 
  .ball {
   position: absolute;
@@ -685,6 +689,7 @@ body.nav-active { overflow: hidden; }
 .cta { background-color: var(--charcoal); }
 
 .cta .container {
+  margin-top:170px;
   padding-block: 100px 60px;
   border-block-end: 1px solid var(--cadet-blue-crayola_a20);
 }
