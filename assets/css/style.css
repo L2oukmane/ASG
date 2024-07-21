@@ -19,6 +19,7 @@ height: 100%;
 background-color: #eeeeee;
 color: #303030;
 font-family: "Asap", sans-serif;
+
 }
 
 .demo {
@@ -85,7 +86,7 @@ body {
   position:fixed;
   right:-50%;
   top:0;
-  z-index:-5;
+   z-index:-1;
 }
 
 .bg2 {
@@ -608,9 +609,11 @@ body.nav-active { overflow: hidden; }
   #SERVICE
 \*-----------------------------------*/
 
-.service { text-align: center; }
+.service { text-align: center; 
 
-.service .section-title { margin-block-end: 50px; }
+}
+
+.service .section-title { margin-block-end: 50px }
 
 .service-card {
   padding: 40px;
@@ -904,10 +907,13 @@ body.nav-active { overflow: hidden; }
    * REUSED STYLE
    */
 
+
   .container {
+
     max-width: 540px;
     width: 100%;
     margin-inline: auto;
+
   }
 
 

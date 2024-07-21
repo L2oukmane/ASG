@@ -200,4 +200,4 @@ function redirectRU(){ window.location = "russian.html"; }
 
 document.getElementById("ar").addEventListener("click", redirectAR);
 
-function redirectAR(){ window.location = "arabice.html"; }
+function redirectAR(){ window.location = "arabic.html"; }

@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl~">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>ASG Entertainment</title>
+  <meta name="title" content="ASG">
+  <meta name="description" content="This is a business agency html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/favLogo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo1.svg" width="160" height="80" alt="Adex home" class="logo-light">
+
+        <img src="./assets/images/logo2.svg" width="150" height="40" alt="Adex home" class="logo-dark" style="border-radius: 16px;">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo1.svg" width="150" height="70" alt="Adex home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+        
+        
+
+        <ul class="navbar-list">
+          <table class="lang">
+            <tr>
+              <td class="tdlang">
+                <span  id="ar" class="button_lang current_lang">عربي</span>
+              </td>
+              <td  class="tdlang"><span id="ru" class="button_lang">Русский</span></td>
+              <td class="tdlang"><span id="en" class="button_lang">EN</span></td>
+            </tr>
+          </table>
+
+          <li>
+            <a href="#" class="navbar-link">الصفحة الرئيسية</a>
+          </li>
+
+          <li>
+            <a href="index.html#About" class="navbar-link">معلومات عنا</a>
+          </li>
+
+          <li>
+            <a href="index.html#services" class="navbar-link">خدمات</a>
+          </li>
+
+          <li>
+            <a href="index.html#contact" class="navbar-link">اتصل بنا</a>
+          </li>
+
+        </ul>
+
+ 
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" aria-label="home"
+        style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title"> مرحبا بكم في <br> ASG Entertainment </h1>
+
+            <p class="hero-text">
+                ,ASG Entertainment في <br>نحن متخصصون في خلق تجارب لا تُنسى تأسرك وتسعدك <br><br>
+                مهمتنا هي تحويل رؤيتك إلى واقع مذهل، وضمان نجاح كل حدث باهر
+            </p>
+
+            <div class="btn-wrapper">
+
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLScM2pZ4V93fohlDry3evTAPsKm7E76UXC2LPbDPhCIdhmpgNg/viewform?usp=sf_link" target="_blank" class="btn btn-outline">اتصل بنا</a>
+
+            </div>
+
+          </div>
+
+          <div class="hero-slider" data-slider>
+
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/animators2.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <div class="hero-card">
+                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                      <img src="./assets/images/animators4.jpg" width="575" height="550" alt="hero banner"
+                        class="img-cover">
+                    </figure>
+
+                   
+                    </button>
+                  </div>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/animators3.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/animators5.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+                  
+
+                </li>
+
+              </ul>
+            </div>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section  id="services"   class="section service" aria-labelledby="service-label">
+        <div class="container">
+
+          <p class="section-subtitle" id="service-label">الذي نفعله؟</p>
+
+          <h2 class="h2 section-title">
+            خدماتنا
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <span class="material-symbols-outlined">
+                    comedy_mask
+                    </span>
+                </div>
+
+                <h3 class="h4 card-title">الأنشطة الترفيهية بالفنادق</h3>
+
+                <p class="card-text">
+                    تحويل الضيافة إلى تجربة مبهجة، تم تصميم خدمات الترفيه الفندقية لإشراك الضيوف من جميع الأعمار 
+                </p>
+
+                <a href="#" class="btn-text">
+                  <span class="span">أعرف المزيد</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <span class="material-symbols-outlined">
+                    celebration
+                    </span>
+                </div>
+
+                <h3 class="h4 card-title">تنظيم الحفلات</h3>
+
+                <p class="card-text">
+                    سواء كان ذلك احتفالًا بعيد ميلاد، أو حدثًا مؤسسيًا، أو تجمعًا احتفاليًا، فإن خدمات تنظيم الحفلات لدينا تضمن إقامة حدث لا يُنسى من البداية إلى النهاية
+                </p>
+
+                <a href="#" class="btn-text">
+                  <span class="span">أعرف المزيد</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <span class="material-symbols-outlined">
+                    nightlife
+                    </span>
+                </div>
+
+                <h3 class="h4 card-title">تنظيم الحفلات الموسيقية</h3>
+
+                <p class="card-text">
+                    ASG Entertainment  <br>هي المزود الأول لخدمات تنظيم الحفلات الموسيقية، حيث تقدم عروضًا وفعاليات عالمية المستوى                </p>
+
+                <a href="#" class="btn-text">
+                  <span class="span">أعرف المزيد</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <span class="material-symbols-outlined">
+                    travel_explore
+                    </span>
+                </div>
+
+                <h3 class="h4 card-title">حضور عالمي بلمسة محلية</h3>
+
+                <p class="card-text">
+                    مكاتبنا في أوروبا و
+                    الشرق الأوسط تسمح لنا أن نحضر
+                    منظور عالمي مع فهم عميق للثقافات والتفضيلات المحلية
+                </p>
+
+                <a href="#" class="btn-text">
+                  <span class="span">أعرف المزيد</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about" aria-labelledby="about-label">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.png" width="800" height="580" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div id="About" class="about-content">
+
+
+            <div class="bg"></div>
+            <div class="bg bg2"></div>
+            <div class="bg bg3"></div>
+            
+            
+            <p class="section-subtitle" id="about-label">معلومات عنا</p>
+
+            <h2 class="h2 section-title">
+                قيمنا
+            </h2>
+
+            <ul>
+
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">شغف التميز</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    نحن مدفوعون بشغف التميز والالتزام بتقديم أعلى مستويات الترفيه. فريقنا من
+ يجلب المحترفون الإبداع والابتكار والتفاني في كل مشروع، مما يضمن تنفيذ كل حدث بطريقة جيدة
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">نهج يركز على العملاء</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    ASG Entertainment في <br>
+                    عملائنا هم جوهر كل ما نقوم به.
+                    نستمع إلى احتياجاتك، ونفهم رؤيتك، ونعمل بلا كلل لتجاوز توقعاتك. الارتياح الخاص بك هو على رأس أولوياتنا
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">الابتكار والإبداع</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    نحن نزدهر بالابتكار والإبداع، ونستكشف باستمرار أفكارًا وتقنيات جديدة لتعزيز قدراتنا
+ خدمات. هدفنا هو البقاء في صدارة اتجاهات الصناعة وتوفير حلول ترفيهية متطورة تفاجئ وتسعد جمهورنا
+                  </p>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+        
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" aria-labelledby="feature-label">
+        <div class="container">
+
+          <figure class="feature-banner">
+            <img src="./assets/images/feature-banner.png" width="800" height="531" loading="lazy" alt="feature banner"
+              class="w-100">
+          </figure>
+
+          <div class="feature-content">
+
+            <p class="section-subtitle" id="feautre-label">معلومات عنا</p>
+
+            <h2 class="h2 section-title">
+                الخبرة والعديد من المشاريع.
+            </h2>
+
+            <p class="section-text">
+                مع سنوات من الخبرة في صناعة الترفيه، قمنا ببناء سمعة طيبة من حيث التميز والموثوقية.
+            </p>
+
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    خدمات شاملة
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    شبكة عالمية
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    الاحتراف والإبداع
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    تجربة غير عادية
+                  </span>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #STATS
+      -->
+
+      <section class="stats" aria-label="our stats">
+        <div class="container">
+
+          <ul class="stats-card has-bg-image" style="background-image: url('./assets/images/stats-bg.jpg')">
+
+            <li>
+              <p class="card-text">
+                <span class="h1">+10</span>
+
+                <spna class="span">بلدان</spna>
+              </p>
+            </li>
+
+            <li>
+              <p class="card-text">
+                <span class="h1">+60</span>
+
+                <spna class="span">منظمة شريكة</spna>
+              </p>
+            </li>
+
+            <li>
+              <p class="card-text">
+                <span class="h1"> > 200</span>
+
+                <spna class="span">موظفين خبراء</spna>
+              </p>
+            </li>
+
+            <li>
+              <p class="card-text">
+                <span class="h1"> > 1000</span>
+
+                <spna class="span">عميل راض</spna>
+              </p>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" aria-label="call to action">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            ابقى على اتصال مع <br>ASG Entertainment
+          </h2>
+
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScM2pZ4V93fohlDry3evTAPsKm7E76UXC2LPbDPhCIdhmpgNg/viewform?usp=sf_link" target="_blank" class="btn btn-primary">اتصل بنا</a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer id="contact" class="footer">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo1.svg" width="200" height="80" alt="ASG home">
+        </a>
+
+        <p class="footer-text">
+          &copy; 2024  Developed By Loukmane Oustani <br> All rights reserved.
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in Touch</p>
+        </li>
+
+        <li>
+          <address class="footer-text">
+           Moscow, Russia.
+          </address>
+
+          <address class="footer-text">
+            Sharm El Sheikh, Egypt. 
+           </address>
+
+           <address class="footer-text">
+            Dubai, UAE. 
+           </address>
+        </li>
+
+        <li>
+          <a href="mailto:info@email.com" class="footer-link">info@email.com</a>
+        </li>
+
+        <li>
+          <a href="tel:001234567890" class="footer-link">+7 925 400 0016</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <a href="index.html#About" class="footer-link">معلومات عنا</a>
+        </li>
+
+        <li>
+          <a href="index.html#services" class="footer-link">خدمات</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">شروط الاستخدام</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">سياسة الخصوصية</a>
+        </li>
+
+      </ul>
+
+      <div class="footer-list">
+
+        <p class="h4 footer-list-title">Our Newsletter</p>
+
+        <p class="footer-text">
+          Subscribe to our newsletter to get our news & deals delivered to you.
+        </p>
+
+        <form action="" class="input-wrapper">
+          <input type="email" name="email_address" placeholder="Email Address" required class="input-field">
+
+          <button type="submit" class="submit-btn">Join</button>
+        </form>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
