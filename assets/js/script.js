@@ -203,3 +203,8 @@ document.getElementById("ar").addEventListener("click", redirectAR);
 function redirectAR(){ window.location = "arabic.html"; }
 
 
+document.getElementById("it").addEventListener("click", redirectIT);
+
+function redirectIT(){ window.location = "italian.html"; }
+
+
